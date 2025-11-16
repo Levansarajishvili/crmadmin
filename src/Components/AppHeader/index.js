@@ -17,7 +17,7 @@ function AppHeader() {
   }, []);
 
   return (
-    <div className="AppHeader">
+    <div className="AppHeader" style={{ marginBottom: '20px', }}>
     <img src={logo} alt="not found" style={{ width: '40px', height: '40px' }} />
       <Typography.Title>ლევანის ადმინ პანელი</Typography.Title>
       <Space>
