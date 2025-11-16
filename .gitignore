@@ -1,0 +1,7 @@
+﻿@"
+node_modules/
+.cache/
+build/
+dist/
+.env
+"@ | Out-File -Encoding utf8 -FilePath .gitignore -Force
